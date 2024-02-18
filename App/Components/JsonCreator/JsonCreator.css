@@ -1,0 +1,22 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.json-creator-app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #51557E;
+  overflow: auto;
+  min-width: max-content;
+}
+
+.main-json-container {
+  display: flex;
+  justify-content: center;
+  padding: 5.5rem 2rem 2rem 2rem;
+}
